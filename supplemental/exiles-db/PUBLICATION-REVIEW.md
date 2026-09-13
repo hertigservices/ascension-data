@@ -82,12 +82,15 @@ figure is 96. There is a regression test.
 
 The mirror's indexed names, route paths, verbatim-preserved pages and API
 specification were screened before publication. One finding: the site's
-`openapi.json` carries a named individual's email address in `info.contact`. The
-field map that document provides is worth preserving; the address is not. The
-published copy is byte-identical to the original except that every address is
-replaced with `<redacted: contact address>`, the organisation name is retained,
-and the unmodified file's SHA-256 and the redaction count are recorded in the
-manifest. `verify` refuses a snapshot in which an address reappears, and it now
+`openapi.json` carries a contact in `info.contact` — a named individual's email
+address, and an organisation that identifies the site's operator, who has asked to
+remain anonymous. The field map that document provides is worth preserving; the
+contact is not. The published copy is byte-identical to the original except that
+every address is replaced with `<redacted: contact address>` and the organisation
+with `<redacted: operator>`; the unmodified file's SHA-256 and both redaction counts
+are recorded in the manifest. The organisation was retained in the first
+publication and removed in a later commit. `verify` refuses a snapshot in which an
+address reappears or the contact is named, and it now
 screens **every** artifact rather than a listed subset — the specification was
 not on the earlier list, which is precisely why it needed to be.
 
@@ -107,7 +110,10 @@ inside the mirror.
 This is a supplemental preservation catalog of a third-party website. Item, NPC,
 loot and source accuracy are not independently established; drop percentages are
 the site's own claims and no probability is inferred from them; `candidate-missing`
-IDs are research candidates, not proven game entities. The mirrored icon set is
-incomplete by 39,858 failed asset fetches. Captured WDB values remain
+IDs are research candidates, not proven game entities. The crawl's 39,858 failed
+asset fetches are not missing icons — 22,151 requested a `/coa/static/icons/` path
+the site never served, 16,702 were creature renders that were never made, and 498
+were `icons-clean` files — and the operator's complete icon set has since been
+published separately. Captured WDB values remain
 authoritative. No WDB payloads were produced and no live realm has been changed.
 The source's licensing status is not asserted by this preservation record.

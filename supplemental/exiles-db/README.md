@@ -37,7 +37,7 @@ live site.
 | [Talent trees](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/talents.jsonl.gz) | Every tree and cell, in both the positioned and flat layouts. |
 | [Change log](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/changes.jsonl.gz) · [Per-entity history](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/histories.jsonl.gz) | Field-level changes with old value, new value, significance and source label. |
 | [Tree and class pages](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/structural-pages.tar.gz) | Byte-exact original HTML of the pages whose markup carries CoA-only structure. |
-| [API specification](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/openapi.json.gz) | The site's own OpenAPI document, contact addresses redacted in place. |
+| [API specification](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/openapi.json.gz) | The site's own OpenAPI document, its contact redacted in place. |
 | [SQLite database](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/catalog.sqlite.gz) | Decompress and open read-only to query entities, trees and talents. |
 | [Comparison report](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/comparison.json.gz) | Every name conflict, missing candidate and stub-named entity, listed by name and id. |
 | [Manifest](6bcecd0faa6c2e7084d8015e1d931431c30e3013a9122810d593868196a3578b/manifest.json) | Source and baseline hashes, counts, interpretation limits and artifact checksums. |
@@ -118,13 +118,14 @@ The mirrored site's own footer attributes it to the Project Ascension guild
 authenticated, and the crawl date is the publisher's label rather than a verified
 collection date.
 
-The site's OpenAPI document declares `AGPL-3.0-or-later` and names Sub-Net e.U. as
-contact. That licence describes the API the document specifies; **it is not a
-grant covering the mirrored database content**, and no licensing status for that
-content is asserted here. The document arrived carrying a named individual's
-email address; the published copy is byte-identical except that addresses are
-replaced with `<redacted: contact address>`, and the unmodified file's SHA-256 is
-recorded in the manifest.
+The site's OpenAPI document declares `AGPL-3.0-or-later`. That licence describes
+the API the document specifies; **it is not a grant covering the mirrored database
+content**, and no licensing status for that content is asserted here. The document
+arrived carrying a contact: a named individual's email address, and an organisation
+that identifies the site's operator, who has asked to remain anonymous. The
+published copy is byte-identical except that addresses are replaced with
+`<redacted: contact address>` and the organisation with `<redacted: operator>`; the
+unmodified file's SHA-256 is recorded in the manifest.
 
 The upstream archive itself is not republished here — 13.75 GB of mirrored bytes
 does not belong in a Git repository. `mirror.index.tsv.gz` identifies every file
@@ -135,9 +136,12 @@ these records were parsed from.
 
 Website values are attributed claims; captured WDB data remains authoritative
 where the two disagree. Drop percentages are the site's own stated figures, not
-observations made here. The crawl recorded 39,858 failed asset fetches, so the
-mirrored icon set is incomplete and a missing icon is not evidence of a missing
-icon upstream. IDs are Ascension's renumbered space. Rendered pages give display
+observations made here. The crawl recorded 39,858 failed asset fetches, but they
+are not missing icons: 22,151 asked for a `/coa/static/icons/` path the site never
+served, 16,702 were creature renders that were never made, and 498 were
+`icons-clean` files. The operator's complete icon set is served one file at a time
+as `https://ascension-public-data.ascension-archive.workers.dev/images/icons/<name>.png`.
+IDs are Ascension's renumbered space. Rendered pages give display
 strings — `"Instant"`, not `cast_time_ms` — because only two of the site's JSON
 API responses were captured.
 
