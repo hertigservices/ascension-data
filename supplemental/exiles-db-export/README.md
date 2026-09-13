@@ -29,7 +29,7 @@ where the pages showed whole-percent map positions.
 | [Tables as CSV](https://github.com/hertigservices/ascension-data/releases/download/exiles-db-export-2026-09-13/coa-public-2026-09-13-tables.tar) | One gzipped CSV per table, with a header row and sorted by primary key. For anyone without PostgreSQL. |
 | [Schema reference](17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9/SCHEMA_REFERENCE.md) | Every table and column explained, with query starting points. |
 | [schema.sql](17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9/schema.sql) · [TABLE_INDEX.csv](17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9/TABLE_INDEX.csv) · [COLUMN_INDEX.csv](17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9/COLUMN_INDEX.csv) | Exact DDL, per-table row counts, and a machine-readable column map. |
-| [Icon map](17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9/icon-map.csv.gz) | `kind,id,icon` for 319,248 item, spell and currency ids, resolved through the icon tables. |
+| [Icon map](17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9/icon-map.csv.gz) | `kind,id,icon` for 319,248 item, spell and currency ids, resolved through the icon tables. Its item icons are unreliable; see "Icons" below. |
 | [Asset index](17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9/ASSET_INDEX.csv.gz) | Path, size, SHA-256, media type, category, rights note and original URL of all 80,711 files the site served. |
 | [Manifest](17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9/manifest.json) | Source hash, every file's size and SHA-256, per-table counts and hashes, screening results. |
 
@@ -84,6 +84,16 @@ file, and a 144 MB zip that duplicates the creature renders.
 - `icon-map.csv.gz` has these joins done. 318,266 of its 319,248 ids name an icon that
   has a file. About 276 icon names used by the data have no file anywhere; most are
   generated spell-variant names such as `aether_blood_strike_913180`.
+- **Do not trust its item icons.** This repository also holds the game client's own
+  display icons. Where both exist, the export's item icon disagrees on 14,826 of 96,574
+  items (15.4%).
+  - Glyph of Searing Pain (42466) gets `inv_bracer_04` instead of `inv_glyph_majorwarlock`.
+  - Green Skeletal Warhorse (13334) gets `inv_helmet_13` instead of
+    `ability_mount_undeadhorse`.
+  - The site's own item pages show the same wrong icons. The pattern fits a stock
+    display-id join against Ascension's renumbered ItemDisplayInfo.
+  - For items, use `cachedata/dbc/item_display_icons.tsv.gz`, joined through the item
+    cache's `displayid`. Spell icons agree with the site's spell pages on 99.7% of spells.
 
 **Everything else.**
 - IDs are Ascension's renumbered space. Item display ids in particular do not match
