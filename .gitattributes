@@ -19,3 +19,4 @@ supplemental/bisbeard/** -text
 supplemental/exiles-db/** -text
 supplemental/client-dbc-snapshots/** -text
 supplemental/coa-databank/** -text
+supplemental/exiles-db-export/** -text

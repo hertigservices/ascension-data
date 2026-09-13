@@ -1,0 +1,609 @@
+{
+  "database": {
+    "engine": "PostgreSQL (17 recommended by the export; restored and verified on 18.6)",
+    "extensions": [
+      "citext",
+      "pg_trgm"
+    ],
+    "per_table": {
+      "achievement": {
+        "csv_gz_bytes": 318741,
+        "csv_gz_sha256": "8976333772aa31180275db6058452dc74e61e11c2c2bbab0511334a832683a0c",
+        "rows": 22637
+      },
+      "achievement_category": {
+        "csv_gz_bytes": 2140,
+        "csv_gz_sha256": "4a453b9263fc1d310e496d908a0e24a913ee38be33998e95d0b578fe77d48a80",
+        "rows": 245
+      },
+      "affixed_item": {
+        "csv_gz_bytes": 645812,
+        "csv_gz_sha256": "9c638b6aacd9259b414a59236e6a31a4ef47fe293d9f182c81f1a3fb3b06258a",
+        "rows": 13296
+      },
+      "area": {
+        "csv_gz_bytes": 57819,
+        "csv_gz_sha256": "88ecaca947ca06a9404b0e2a01fc91562d31287b1239b6956907fbe92ed537c6",
+        "rows": 2853
+      },
+      "areatrigger": {
+        "csv_gz_bytes": 77,
+        "csv_gz_sha256": "c904a8cac84feb91d1a60abc9688ce4aa5a378e898d7e5de4b7851ee0d0afa92",
+        "rows": 0
+      },
+      "blackmarket_listing": {
+        "csv_gz_bytes": 107,
+        "csv_gz_sha256": "79a7839af8d30e5b6e5768781f1ff47429910b277bba8650de7fcdb9b8043171",
+        "rows": 0
+      },
+      "blackmarket_vendor": {
+        "csv_gz_bytes": 128,
+        "csv_gz_sha256": "c1faab0530ac953784a6877d8f31dcbf9be4f9661131a7edac65caa69316d9d8",
+        "rows": 0
+      },
+      "class": {
+        "csv_gz_bytes": 741,
+        "csv_gz_sha256": "bcda535970e1ca74f76eb9e4cc5613551a5255f373cb33d9cbec41d385ff3570",
+        "rows": 32
+      },
+      "class_spell": {
+        "csv_gz_bytes": 21800,
+        "csv_gz_sha256": "c85fde1a11119b6d3ba5ea0f68d8680337bb831c4024ddfe5d31cdfa8217b922",
+        "rows": 2755
+      },
+      "craft_recipe": {
+        "csv_gz_bytes": 18507,
+        "csv_gz_sha256": "273be086a1c39f0108c40552ac8f7debabcc72c37c587d99de753edc394a022f",
+        "rows": 1299
+      },
+      "creature": {
+        "csv_gz_bytes": 1641773,
+        "csv_gz_sha256": "0e15d2c4600415a052750ee13bf4eb7ff56112b285593c87d6696dbe72a30292",
+        "rows": 43213
+      },
+      "creature_difficulty": {
+        "csv_gz_bytes": 10619,
+        "csv_gz_sha256": "58077b79250c2c4adee81c5adcb3f0aea9cd2d3649256025333823f3bf89d0e0",
+        "rows": 1813
+      },
+      "creature_family": {
+        "csv_gz_bytes": 5239,
+        "csv_gz_sha256": "360896dd807173de8c6b26d1d475c8ccb004c4570f972965a64a12b98a3e3cca",
+        "rows": 399
+      },
+      "creature_loot": {
+        "csv_gz_bytes": 12330363,
+        "csv_gz_sha256": "3a881bd1e9ffb038276f49ab35682959444cc86722f0ff0cdfd9e0ba365eb5b4",
+        "rows": 4268812
+      },
+      "creature_onkill_reputation": {
+        "csv_gz_bytes": 7737,
+        "csv_gz_sha256": "d4e1241212281d9a4239d3b4f07a7b3cb6e74adaacecbb546a5e50b8edc3195f",
+        "rows": 2724
+      },
+      "creature_quest_ends": {
+        "csv_gz_bytes": 26391,
+        "csv_gz_sha256": "85e138233c3ecce38de4c0e065944675a02254920693c4e4d09bd229556ccd52",
+        "rows": 7859
+      },
+      "creature_quest_starts": {
+        "csv_gz_bytes": 25690,
+        "csv_gz_sha256": "1a382f3a65369992aec22763ad933506c7e0af6f808962320315ad856bd1ac8d",
+        "rows": 7430
+      },
+      "creature_search": {
+        "csv_gz_bytes": 51,
+        "csv_gz_sha256": "1c5cf1172af374c135a8ceff933e4a4d0c597c6c5b4a85e19da2519d4e3a436c",
+        "rows": 0
+      },
+      "creature_spawn": {
+        "csv_gz_bytes": 3860526,
+        "csv_gz_sha256": "0884c353bbc41a65bdbb61d12b86d696d6becf076135ebb25738e2fca5cbe477",
+        "rows": 153064
+      },
+      "creature_spell_data": {
+        "csv_gz_bytes": 2835,
+        "csv_gz_sha256": "52087d988d878754dc1999fc834e48a051676a8ca02d2f16c85a920029a07d28",
+        "rows": 803
+      },
+      "creature_waypoint": {
+        "csv_gz_bytes": 71,
+        "csv_gz_sha256": "924a56f57cf623e828befd5769b06bac6ed820ef33de4f6af777eb3ee929c8fb",
+        "rows": 0
+      },
+      "currency": {
+        "csv_gz_bytes": 2691,
+        "csv_gz_sha256": "72b9e3d963781a94e682054b683bffc4d6ee47187c53eb2d71212469bc552321",
+        "rows": 69
+      },
+      "dbversion": {
+        "csv_gz_bytes": 153,
+        "csv_gz_sha256": "c66f5b438e7ed0199d85f2f7d9a0d1abeb088228832c2defe206539ea5d86ffd",
+        "rows": 1
+      },
+      "disenchant_loot": {
+        "csv_gz_bytes": 595,
+        "csv_gz_sha256": "239ac910aab623f69b65e01a29665d1b6c0e00024c3bbdcd9b46689c2e8f84a9",
+        "rows": 123
+      },
+      "dungeon_boss_extra": {
+        "csv_gz_bytes": 84,
+        "csv_gz_sha256": "7f9ede2f38e0360c94b0db69005a516f40e9de3c8ae50888a552639b956facb3",
+        "rows": 2
+      },
+      "event": {
+        "csv_gz_bytes": 85,
+        "csv_gz_sha256": "6a1de4ce99702bf29a056a6680fb73d684be9ba690a8024c36602ab2a071286c",
+        "rows": 0
+      },
+      "faction": {
+        "csv_gz_bytes": 13570,
+        "csv_gz_sha256": "cb5e6b47258dd772a839ebef40e5c0d049c02578d065923a6445be5869e2cd01",
+        "rows": 417
+      },
+      "faction_template": {
+        "csv_gz_bytes": 7133,
+        "csv_gz_sha256": "9c18844c5ebff978520b35097dbb335fc0a58570d99072a6b0c4ce78586c6f1f",
+        "rows": 843
+      },
+      "fishing_loot": {
+        "csv_gz_bytes": 404,
+        "csv_gz_sha256": "be1316bcc81b7d0b7edc8386975892a6fed83b8d5131263dfc210fb6529dd9ed",
+        "rows": 65
+      },
+      "gameobject": {
+        "csv_gz_bytes": 315975,
+        "csv_gz_sha256": "fd01a04acfa9fcef207d12201a308b19c0fd2cbd6f51bdbe4a6783d9e03128fd",
+        "rows": 25965
+      },
+      "gameobject_loot": {
+        "csv_gz_bytes": 70756,
+        "csv_gz_sha256": "169b80be6848cf6b85fc7d8424dae17ad514cb604b73d48dddc13e0062bf2ec0",
+        "rows": 19283
+      },
+      "gameobject_quest_ends": {
+        "csv_gz_bytes": 32,
+        "csv_gz_sha256": "89abfd5396fcfebd0892d441b081f6c7555d9b5ff3a0b2cba933b4d35403a83a",
+        "rows": 0
+      },
+      "gameobject_quest_starts": {
+        "csv_gz_bytes": 32,
+        "csv_gz_sha256": "89abfd5396fcfebd0892d441b081f6c7555d9b5ff3a0b2cba933b4d35403a83a",
+        "rows": 0
+      },
+      "gameobject_search": {
+        "csv_gz_bytes": 47,
+        "csv_gz_sha256": "00bb02083cfa8ade5eb12da813cde4482f5cf6d3d07bc9e408b53687f0fe57d6",
+        "rows": 0
+      },
+      "gameobject_spawn": {
+        "csv_gz_bytes": 83,
+        "csv_gz_sha256": "7b428cc3ea28291cde6febe398fd28e2f7b48f1320f2b576860e37ae72f9d04b",
+        "rows": 0
+      },
+      "glyphproperties": {
+        "csv_gz_bytes": 50,
+        "csv_gz_sha256": "3343138cce664d33bad235c45cf98cb46c1cd1b1abdfb38ac0024d971170ebcf",
+        "rows": 0
+      },
+      "holiday": {
+        "csv_gz_bytes": 110,
+        "csv_gz_sha256": "961e000bdb1d17bb6f2014de6baa0d9930a7a5a209542ac9d034b7921ab1d7d2",
+        "rows": 0
+      },
+      "icon": {
+        "csv_gz_bytes": 490598,
+        "csv_gz_sha256": "81f8063221e1216d50f24caa5b1e9b34669165d117e9bea007ad16d7b993a920",
+        "rows": 72304
+      },
+      "item_character_creation": {
+        "csv_gz_bytes": 230,
+        "csv_gz_sha256": "3ab748792a08114e3444ba470f33fc42e2564fa85fc5e2829ac1b1c333d54843",
+        "rows": 75
+      },
+      "item_crafted_by": {
+        "csv_gz_bytes": 27346,
+        "csv_gz_sha256": "022caa7faab258ac585818b50bf5cb0b3eba384bb67b17b501a4e3e5947c6d71",
+        "rows": 4915
+      },
+      "item_dbc": {
+        "csv_gz_bytes": 2463677,
+        "csv_gz_sha256": "52e0a6f3f11cc351db07491c7fa96a7c7cd858026d8758424986184f1a60f34b",
+        "rows": 612871
+      },
+      "item_display_info": {
+        "csv_gz_bytes": 1332719,
+        "csv_gz_sha256": "3aee3cab3876a3244d1bfe07669afab7d5e45cb493a6d809187b203e4579634f",
+        "rows": 243170
+      },
+      "item_loot": {
+        "csv_gz_bytes": 26070,
+        "csv_gz_sha256": "94adcb1e775f7b73510635b0ca47605b5b2ee2343f2b620e8cbe38a6e009767b",
+        "rows": 6945
+      },
+      "item_stats": {
+        "csv_gz_bytes": 361441,
+        "csv_gz_sha256": "590d14508bdde06237e0d4f3c35c125dc32dcc9c41692e4d70744f6d297116c1",
+        "rows": 29382
+      },
+      "itemenchantment": {
+        "csv_gz_bytes": 108,
+        "csv_gz_sha256": "96403709f2d8591820ac46aaa96531d60bc04462f3abbd60912f5383d9fc0c4c",
+        "rows": 0
+      },
+      "items": {
+        "csv_gz_bytes": 14297149,
+        "csv_gz_sha256": "884cf4b7dca20794f8333756a19cfd0fb2b08015888ab51a5bc71deff0dd5743",
+        "rows": 117092
+      },
+      "items_search": {
+        "csv_gz_bytes": 62,
+        "csv_gz_sha256": "21fe30d99d0cbb8c71bfd5171bc4a02c6b2ea2bbbdd272f06b7b969c48041138",
+        "rows": 0
+      },
+      "itemset": {
+        "csv_gz_bytes": 21871,
+        "csv_gz_sha256": "61d83d5fa2f0528be96dfebd536d6d1e91d4f3ee6b3c4c5f22a42cd09290b600",
+        "rows": 163
+      },
+      "lfg_dungeon": {
+        "csv_gz_bytes": 5899,
+        "csv_gz_sha256": "8c0dbeff808588a15de05568d707049f64caf4ab1a9a798207566f71c8e3a211",
+        "rows": 439
+      },
+      "locale": {
+        "csv_gz_bytes": 131,
+        "csv_gz_sha256": "6b5acdf9332afe32dd4d89ce8552e4fd5c2b30d78bfb8d5e217db963692be86d",
+        "rows": 6
+      },
+      "loot_link": {
+        "csv_gz_bytes": 68,
+        "csv_gz_sha256": "97f0cf9856ecb115b3b219172fd019b85fde7e9669c640103f6789bba451dbf5",
+        "rows": 0
+      },
+      "loot_template": {
+        "csv_gz_bytes": 93,
+        "csv_gz_sha256": "2b6883cb15b6c4c5db75a2dda8921a752c8dbe23919c75338cd209ffef51de3d",
+        "rows": 0
+      },
+      "map": {
+        "csv_gz_bytes": 8067,
+        "csv_gz_sha256": "9631e8d7d9b7a66aa0124dc3732638bbb8bf078d45d5782335de2d4b4951bca3",
+        "rows": 375
+      },
+      "mind_of_ascension_talent": {
+        "csv_gz_bytes": 175066,
+        "csv_gz_sha256": "76d9c01a4acbaa40f0e48c84c92bf8be88801dd0f256279de78102f230039cd6",
+        "rows": 8532
+      },
+      "mind_of_ascension_tree": {
+        "csv_gz_bytes": 2648,
+        "csv_gz_sha256": "dc1e770db36522d251c553c72c2d182014708acb08d4f85b6cf1caf236c55115",
+        "rows": 153
+      },
+      "mystic_enchant": {
+        "csv_gz_bytes": 120239,
+        "csv_gz_sha256": "0c87aab5d9612a9e7ae6b752e54bba6e8fcaeb7ca5f8d9d476851dcf3a78dc56",
+        "rows": 825
+      },
+      "npc_trainer": {
+        "csv_gz_bytes": 320019,
+        "csv_gz_sha256": "0e3c39b90a67e4cddff8af3731677846a3d197e3c44b37f1ff0c35f6d72676bb",
+        "rows": 76213
+      },
+      "npc_vendor": {
+        "csv_gz_bytes": 189354,
+        "csv_gz_sha256": "38f45baa0d6a5924f75d5d2eca13908be8ee5c80e5b4025488acdbb9f9caf8e2",
+        "rows": 62977
+      },
+      "objectdifficulty": {
+        "csv_gz_bytes": 57,
+        "csv_gz_sha256": "44f5e58b65b9f7e59c33d0056cf754892082463ff0d1e6072e21cc1de7b5d74d",
+        "rows": 0
+      },
+      "pet": {
+        "csv_gz_bytes": 116,
+        "csv_gz_sha256": "ed13ef81ad7cb2cb0acce074d3ac71c75ed0243def749c97a3477f0a86f159b8",
+        "rows": 0
+      },
+      "pickpocket_loot": {
+        "csv_gz_bytes": 63267,
+        "csv_gz_sha256": "a3d7be1e6b6d84b170e619bcca476f06ffc11cafd20764c9c6837d54efebd3b8",
+        "rows": 10891
+      },
+      "quest": {
+        "csv_gz_bytes": 2060855,
+        "csv_gz_sha256": "7529f1e250b6d28cfeba75ed4741289ffdf816fcd8cf11816c75e6f297733189",
+        "rows": 18625
+      },
+      "quest_objective_hotspot": {
+        "csv_gz_bytes": 63465,
+        "csv_gz_sha256": "113f3e34720a2163b259e2de37eb59e7960d3f37094000c70bd4d55b1b3e12e9",
+        "rows": 2715
+      },
+      "quest_search": {
+        "csv_gz_bytes": 62,
+        "csv_gz_sha256": "16ee2ccf0dcf3f18e894b959d2f8e6a84abc44a59b124324d618cd5220d1657c",
+        "rows": 0
+      },
+      "quest_startend": {
+        "csv_gz_bytes": 39417,
+        "csv_gz_sha256": "48ed17627e1da64ccf20de837f89ab60470f9f9b9b28e3d7e9fc251154b73276",
+        "rows": 10616
+      },
+      "quest_xp": {
+        "csv_gz_bytes": 3717,
+        "csv_gz_sha256": "67b20a1f3ffc770edc2508f1c88abea925d7b594c2dee2b7b55468293d88d875",
+        "rows": 1000
+      },
+      "quickfact": {
+        "csv_gz_bytes": 54,
+        "csv_gz_sha256": "a5d4ceff6a59177fe6dc078a094b7c060830b699250fc4ad0ba63561fe3a044a",
+        "rows": 0
+      },
+      "race": {
+        "csv_gz_bytes": 106,
+        "csv_gz_sha256": "243553b7ce26c79f9b816fac36459471d50254ffde32067bdc27e0406f79a79f",
+        "rows": 0
+      },
+      "random_property_pool": {
+        "csv_gz_bytes": 61857,
+        "csv_gz_sha256": "764dac8ef50d6b6a706deba743f0eac3eee48ce721a5f918145704bb0d8a7d38",
+        "rows": 10087
+      },
+      "random_suffix_pool": {
+        "csv_gz_bytes": 3682,
+        "csv_gz_sha256": "eae4ab9408c3d45f9ef54d73033435d8505ea3e25621421d6e16b828b51cd154",
+        "rows": 275
+      },
+      "realm": {
+        "csv_gz_bytes": 343,
+        "csv_gz_sha256": "b3af77a3a834c44858b3c03b6bce8b34cd8457133898942e47a869292c77196a",
+        "rows": 6
+      },
+      "reference_loot": {
+        "csv_gz_bytes": 39057,
+        "csv_gz_sha256": "b67c59918cbd2a77ad00c4b32b34d7f65eef9ba2233969a30b9363f4fb1d63fb",
+        "rows": 13976
+      },
+      "shapeshiftform": {
+        "csv_gz_bytes": 81,
+        "csv_gz_sha256": "93e78619ae7ae71b84d553ce451667f844d8513642e1bafb0bdf2487397dc019",
+        "rows": 0
+      },
+      "skill_line_ability": {
+        "csv_gz_bytes": 264486,
+        "csv_gz_sha256": "6e6b289666c664c58107c8b96883e15cefcfc08eacc1bdd08d9326afd231d86d",
+        "rows": 44060
+      },
+      "skillline": {
+        "csv_gz_bytes": 12317,
+        "csv_gz_sha256": "7c3c06c9ccc64c59d3f2a5d3dd439515527fa69aa2a7fb24eae98c84601c9b7b",
+        "rows": 887
+      },
+      "skinning_loot": {
+        "csv_gz_bytes": 3005,
+        "csv_gz_sha256": "4801074e076ef574ec913dcb5ccf784873b9e24a2088ab902cf530f914f387bb",
+        "rows": 693
+      },
+      "sound": {
+        "csv_gz_bytes": 44,
+        "csv_gz_sha256": "251b4f603e60f834914b53751685039434058e0727ccf5427d794ff1ea514f61",
+        "rows": 0
+      },
+      "sound_file": {
+        "csv_gz_bytes": 40,
+        "csv_gz_sha256": "d30ad6a523bbea1a62a45452b54c8160981eb317d8121df9aefb9d0a3994d67a",
+        "rows": 0
+      },
+      "source": {
+        "csv_gz_bytes": 59,
+        "csv_gz_sha256": "5b475efadd344ea7ed9329cdba5dcbb5be79dc1ede9bc9b18f492df78ee32bbe",
+        "rows": 0
+      },
+      "spawn": {
+        "csv_gz_bytes": 99,
+        "csv_gz_sha256": "4a485eb7d85a63f29c8c06edbe659282b47685fac2bf5ddaf1cf4634d2a704a9",
+        "rows": 0
+      },
+      "spawn_override": {
+        "csv_gz_bytes": 55,
+        "csv_gz_sha256": "82aafe9da15fd1f8a3165974480646756e794a336ae7be9387b155ca3e430b80",
+        "rows": 0
+      },
+      "spell": {
+        "csv_gz_bytes": 16912860,
+        "csv_gz_sha256": "afe10be99b9d7a933e82a920cc290223ffd32a2ccc6c46e9e6323c30a5e0d654",
+        "rows": 240858
+      },
+      "spell_bonus_data": {
+        "csv_gz_bytes": 3509,
+        "csv_gz_sha256": "4618d2caa4b00f076d5f3b10d84f7a6e7d6de824b811894c4310dca40fa6015a",
+        "rows": 216
+      },
+      "spell_cast_times": {
+        "csv_gz_bytes": 456,
+        "csv_gz_sha256": "6135ad1d1efeab34c479f2a53d228c2cbda9e1622c25b5dc0a6da8ecbe1d4b88",
+        "rows": 71
+      },
+      "spell_difficulty": {
+        "csv_gz_bytes": 57,
+        "csv_gz_sha256": "44f5e58b65b9f7e59c33d0056cf754892082463ff0d1e6072e21cc1de7b5d74d",
+        "rows": 0
+      },
+      "spell_duration": {
+        "csv_gz_bytes": 5819,
+        "csv_gz_sha256": "d76551e048223a5c523abd01cf644828da7d09e1db9522b92faf299a66234577",
+        "rows": 866
+      },
+      "spell_icon": {
+        "csv_gz_bytes": 140294,
+        "csv_gz_sha256": "b2ead65454dc77f8038f538ecc3a1bb91dfb49db7346df504fe6556e06285c24",
+        "rows": 16714
+      },
+      "spell_radius": {
+        "csv_gz_bytes": 1749,
+        "csv_gz_sha256": "77ad6fa3721c0f1d7bbb93fced96eb8aa16f49afc00e3d66827d9a4ae14ad24a",
+        "rows": 318
+      },
+      "spell_range": {
+        "csv_gz_bytes": 2182,
+        "csv_gz_sha256": "5720813110cfc9407c3e8ebe3de0b32fe0dc52a3e14ce4ddafe300130ad1918a",
+        "rows": 323
+      },
+      "spell_search": {
+        "csv_gz_bytes": 60,
+        "csv_gz_sha256": "8fac981aa567b052a19ba8e696c6fcf04cbdb0f75b1e7977a70e8c471f01765a",
+        "rows": 0
+      },
+      "talent": {
+        "csv_gz_bytes": 27478,
+        "csv_gz_sha256": "381bdac97be16020528310a394b73ac2d239aa3e6a84a851ee3c3f467fc10cef",
+        "rows": 4753
+      },
+      "talent_tab": {
+        "csv_gz_bytes": 604,
+        "csv_gz_sha256": "d8d3ccafbe2e73b1d7f5bfa69e6a44e6efe84c176e1353004b942f4ba5157bfe",
+        "rows": 37
+      },
+      "taxinode": {
+        "csv_gz_bytes": 87,
+        "csv_gz_sha256": "a60210a3825dc4277e4371793a9ee5f7bd6946dbdeee647e622c5c3e9ad72b8d",
+        "rows": 0
+      },
+      "taxipath": {
+        "csv_gz_bytes": 42,
+        "csv_gz_sha256": "af1e88f5b23fac49a3a90c3d1f78de844ee0ada667985bd0ffc526f8c3235e6d",
+        "rows": 0
+      },
+      "title": {
+        "csv_gz_bytes": 2985,
+        "csv_gz_sha256": "dd40507de82bf6c3a068868f1064aa2f6663706ce8d4eb502ba330f7b87301b3",
+        "rows": 190
+      },
+      "world_discovery": {
+        "csv_gz_bytes": 151,
+        "csv_gz_sha256": "31562a737405b0641700606a413463792114d32a2c6961611f007b6385d6655a",
+        "rows": 0
+      },
+      "world_map_area": {
+        "csv_gz_bytes": 7402,
+        "csv_gz_sha256": "5ce116cbd187525beda2e6d60eaa006082aef5e6f0b8aa9eed44a05cb5dd11b9",
+        "rows": 300
+      }
+    },
+    "rows": 6190916,
+    "tables": 97,
+    "user_functions": 0,
+    "user_triggers": 0
+  },
+  "files": {
+    "ASSET_INDEX.csv.gz": {
+      "bytes": 4399722,
+      "sha256": "ef2715ede7af4a1f841bc788ab64e6bd45c90f3e3dc1b936a6c881981c77fea4",
+      "uncompressed_bytes": 20435371,
+      "uncompressed_sha256": "6bbfda6c49bfeee7f7508bb5430405335cf039328d8b772ddb0390c32d8e72c6"
+    },
+    "COLUMN_INDEX.csv": {
+      "bytes": 41379,
+      "sha256": "3820868d3ce33a61dd2546ae6875d412dabb53857a105af30ff2b37a7b734284"
+    },
+    "RESTORE.md": {
+      "bytes": 1159,
+      "sha256": "8d5b24955c9b307228147ae003994a614a38c01184ba6d9faa652389651d1c07"
+    },
+    "SCHEMA_REFERENCE.md": {
+      "bytes": 60889,
+      "sha256": "80f27cc2dae0c8653d768acb3d0f1e153f138e4a10caf6c04aa7528ac7698173"
+    },
+    "TABLE_INDEX.csv": {
+      "bytes": 2486,
+      "sha256": "eb33a80d57757c6886166e84dfb47562a9c74b3b49879a4ca9233da8d6552584"
+    },
+    "icon-map.csv.gz": {
+      "bytes": 1768789,
+      "sha256": "399a76a9f9118afc6a2086d2ba8e361508e625a52351f548fdbfe338bcf358b7"
+    },
+    "schema.sql": {
+      "bytes": 140155,
+      "sha256": "bcc638f854945d14762c55a51abcca50267511106433b1e60a4843516d955fe2"
+    }
+  },
+  "icon_map": {
+    "by_kind": {
+      "currency": {
+        "ids": 42,
+        "with_published_file": 42
+      },
+      "item": {
+        "ids": 110885,
+        "with_published_file": 110781
+      },
+      "spell": {
+        "ids": 208321,
+        "with_published_file": 207443
+      }
+    },
+    "joins": "items/currency icon_id -> icon.id; spell icon_id >= 10000000 -> icon.id, else spell_icon.id; achievement icon_id is empty on every row",
+    "rows": 319248
+  },
+  "images": {
+    "base": "https://ascension-public-data.ascension-archive.workers.dev/images/",
+    "counts": {
+      "class-portraits": 21,
+      "creatures": 5564,
+      "icons": 75030,
+      "img": 43,
+      "maps": 63
+    },
+    "icon_url": "https://ascension-public-data.ascension-archive.workers.dev/images/icons/<lowercase icon name>.png",
+    "not_served_yet": {
+      "icons": 985,
+      "reason": "the read service path check rejects ( ) ' & ]"
+    }
+  },
+  "release": {
+    "assets": {
+      "SHA256SUMS.txt": {
+        "bytes": 194,
+        "sha256": "5f8570dfd8c1a268445427b7adf114c2d66990875150d93db0de2d1d3ca523c7",
+        "url": "https://github.com/hertigservices/ascension-data/releases/download/exiles-db-export-2026-09-13/SHA256SUMS.txt"
+      },
+      "coa-public-2026-09-13-tables.tar": {
+        "bytes": 59043840,
+        "sha256": "0f69f4bd01b9f787b4a4bb267fba6711b905300aeaf4f42873bbd9f5446d8549",
+        "url": "https://github.com/hertigservices/ascension-data/releases/download/exiles-db-export-2026-09-13/coa-public-2026-09-13-tables.tar"
+      },
+      "coa-public-2026-09-13.sql.gz": {
+        "bytes": 69211790,
+        "sha256": "0d4a287d6322561b71a60ebc157d6141895b7548d4779518ae8d28f46ef0536a",
+        "url": "https://github.com/hertigservices/ascension-data/releases/download/exiles-db-export-2026-09-13/coa-public-2026-09-13.sql.gz"
+      }
+    },
+    "tag": "exiles-db-export-2026-09-13"
+  },
+  "schema": "exiles-db-export-1",
+  "screening": {
+    "email_shaped": {
+      "techbot@gnome.mail": "twice in spell text; the GM BAN Hammer flavour line"
+    },
+    "grant_revoke_comment_owner_statements": 0,
+    "identity_pattern_hits": {
+      "documents": 0,
+      "images": 0,
+      "sql_dump": 0,
+      "sql_dump_lines_scanned": 6197203,
+      "table_exports": 0
+    },
+    "ipv4_in_sql_dump": 0
+  },
+  "source": {
+    "archive": "coa-rebuild-2026-09-13.tar.zst",
+    "bytes": 969663875,
+    "export_dated": "2026-09-13",
+    "provided_by": "the operator of db.exil.es, who asked to remain anonymous",
+    "received": "2026-09-12",
+    "sha256": "17187cc0bca9bf620309d1fb65f2318bb0128be1348b4d15e7f8f35fb12b99a9",
+    "verified": "sha256sum -c against the operator's checksum file before extraction"
+  }
+}
