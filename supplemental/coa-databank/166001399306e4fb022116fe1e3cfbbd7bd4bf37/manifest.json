@@ -1809,8 +1809,8 @@
    "sha256": "1e84f7f70c659028f33ec4cddb81168091b7ac9400953f9619fc03d1a118d4cd"
   },
   "databank/palette/spells.jsonl.gz": {
-   "bytes": 11473949,
-   "sha256": "1d150d9260010d8213dad96cebedc4208fb3794ef189eede7f1908ae91743df0"
+   "bytes": 11473952,
+   "sha256": "d28214f583b5acb4bbb34aa691ee1bd75230d858f6e4d0fd7d84085aff073884"
   },
   "databank/roster.json.gz": {
    "bytes": 3678,
@@ -27778,8 +27778,8 @@
   },
   "databank/palette/spells.jsonl.gz": {
    "artifact": "databank/palette/spells.jsonl.gz",
-   "content_bytes": 220678089,
-   "content_sha256": "b25e9b435c0ebc28bf0671934685283d8ad9e0291a60437915f801512e1702f8",
+   "content_bytes": 220678090,
+   "content_sha256": "018e884c1bb4c48abb111b87efa4d3c86ea0b9a70419d43e378832efba31263c",
    "kind": "text",
    "source_blob": "34b2a0f4a7ade443d7169aa5d467f666a87d3f0f",
    "source_bytes": 11412684,
@@ -73784,8 +73784,8 @@
   },
   "provenance/original-coa/palette/spells.jsonl.gz": {
    "artifact": "databank/palette/spells.jsonl.gz",
-   "content_bytes": 220678089,
-   "content_sha256": "b25e9b435c0ebc28bf0671934685283d8ad9e0291a60437915f801512e1702f8",
+   "content_bytes": 220678090,
+   "content_sha256": "018e884c1bb4c48abb111b87efa4d3c86ea0b9a70419d43e378832efba31263c",
    "duplicate_of": "databank/palette/spells.jsonl.gz",
    "kind": "text",
    "source_blob": "34b2a0f4a7ade443d7169aa5d467f666a87d3f0f",
