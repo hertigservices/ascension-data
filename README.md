@@ -2,14 +2,16 @@
 
 Recovered Ascension datasets, provenance, manifests and immutable supplemental
 catalogs. This repository was previously named **ascension-cache-consolidator**;
-its history and existing cachedata paths are retained.
+its history is retained; downloaded cache files retain their original paths.
+
+**[Download the complete cache collection or selected folders](DOWNLOADS.md).** Large files are in Releases; this checkout holds the manifest and small upload receipts.
 
 **Tool source now lives in [Ascension Preservation](https://github.com/hertigservices/Ascension_preservation/tree/main/tools/cache-consolidator).**
 See the [unified setup guide](https://github.com/hertigservices/Ascension_preservation/blob/main/docs/SETUP.md).
 
 | Data | Purpose |
 |---|---|
-| [cachedata/](cachedata/) | Captured WDB records, valid variants, per-mode views and provenance |
+| [Cache downloads](DOWNLOADS.md) | Captured WDB records, valid variants, per-mode views and provenance; verified Release packs with original filenames |
 | [manifests/](manifests/) | SHA-256 and size of every file in a named cache snapshot |
 | [supplemental/bisbeard/](supplemental/bisbeard/) | Separately attributed planner export, all original rows, queryable catalog and comparison report |
 | [supplemental/exiles-db/](supplemental/exiles-db/) | Separately attributed mirror of a CoA database site, parsed into spell, item, NPC, quest, achievement and talent-tree records, with a change log and a hash index of every mirrored file |

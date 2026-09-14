@@ -4,7 +4,9 @@ _inbox/
 extracted/
 merged/
 merged.prev/
-# cachedata/ is PUBLISHED -- the consolidated data is the point of this repo.
+# Bulk cache files are published through verified GitHub Release packs.
+/cachedata/*
+!/cachedata/contributions/
 ledger.json
 MANIFEST.md
 config.json
