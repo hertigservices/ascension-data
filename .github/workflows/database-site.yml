@@ -7,9 +7,9 @@ permissions:
   contents: read
 jobs:
   catalog:
-    uses: hertigservices/Ascension_preservation/.github/workflows/ascension-db-r2.yml@98ccb0740551bc74f2f3ccba8eda93f84f87c62b
+    uses: hertigservices/Ascension_preservation/.github/workflows/ascension-db-r2.yml@191d862faa581689b75bc7527148685249a6ec3d
     with:
-      source_ref: 98ccb0740551bc74f2f3ccba8eda93f84f87c62b
+      source_ref: 191d862faa581689b75bc7527148685249a6ec3d
       icon_base: https://ascension-public-data.ascension-archive.workers.dev/images/icons/
     secrets:
       ASCENSION_PUBLICATION_TOKEN: ${{ secrets.ASCENSION_PUBLICATION_TOKEN }}
