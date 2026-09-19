@@ -9,7 +9,7 @@ jobs:
   catalog:
     uses: hertigservices/Ascension_preservation/.github/workflows/ascension-db-r2.yml@0aa66c7e1e0fd5014311dd0f1f7c204485fcc19a
     with:
-      source_ref: a28f9ee16ffb70aa81794b09c5b7eb548f37ee89
+      source_ref: d495e9e7780ff6257282d13b6066ed9528a69455
       icon_base: https://ascension-public-data.ascension-archive.workers.dev/images/icons/
     secrets:
       ASCENSION_PUBLICATION_TOKEN: ${{ secrets.ASCENSION_PUBLICATION_TOKEN }}

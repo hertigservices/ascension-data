@@ -19,5 +19,117 @@
     "area_id": "10138",
     "evidence": "reviewed-northshire-report",
     "source": "catalog-user-report-2026-09-19; subtitle and quest 1660003 name Northshire Abbey"
+  },
+  {
+    "npc_id": "161705",
+    "name": "Injured Northshire Guard",
+    "area_id": "9",
+    "evidence": "reviewed-quest-text-zone-name",
+    "source": "catalog-user-report-2026-09-19; quest 1660005 is area 9 and says to return to the injured guard"
+  },
+  {
+    "npc_id": "161712",
+    "name": "Accursed Censor",
+    "area_id": "9",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660038 RequiredNpcOrGo1; reviewed against Northshire dungeon prose"
+  },
+  {
+    "npc_id": "161713",
+    "name": "Wayward Theologian",
+    "area_id": "9",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660004 RequiredNpcOrGo3 and ObjectiveText3; reviewed against Northshire prose"
+  },
+  {
+    "npc_id": "161715",
+    "name": "[KC] Purify Relics",
+    "area_id": "9",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660003 RequiredNpcOrGo1; reviewed against Northshire dungeon prose"
+  },
+  {
+    "npc_id": "161716",
+    "name": "Shadewell Murloc",
+    "area_id": "9",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660005 RequiredNpcOrGo2 and ObjectiveText2; reviewed against Northshire river prose"
+  },
+  {
+    "npc_id": "161736",
+    "name": "Defias Plunderer",
+    "area_id": "9",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660005 RequiredNpcOrGo1 and ObjectiveText1; reviewed against Northshire tower prose"
+  },
+  {
+    "npc_id": "161775",
+    "name": "His Radiant Majesty",
+    "area_id": "132",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660009 RequiredNpcOrGo2 and ObjectiveText2; reviewed against Radiance Town prose"
+  },
+  {
+    "npc_id": "161762",
+    "name": "Mother",
+    "area_id": "154",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660025 RequiredNpcOrGo1 and ObjectiveText1; reviewed against Cain Family Crypt prose"
+  },
+  {
+    "npc_id": "161763",
+    "name": "Father",
+    "area_id": "154",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660025 RequiredNpcOrGo2 and ObjectiveText2; reviewed against Cain Family Crypt prose"
+  },
+  {
+    "npc_id": "161764",
+    "name": "Cousin Salem",
+    "area_id": "154",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660025 RequiredNpcOrGo3 and ObjectiveText3; reviewed against Cain Family Crypt prose"
+  },
+  {
+    "npc_id": "161765",
+    "name": "Uncle Abel",
+    "area_id": "154",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660025 RequiredNpcOrGo4 and ObjectiveText4; reviewed against Cain Family Crypt prose"
+  },
+  {
+    "npc_id": "162853",
+    "name": "Brightwater Rebel",
+    "area_id": "85",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660052 RequiredNpcOrGo2 and ObjectiveText2; reviewed against Brightwater Lake prose"
+  },
+  {
+    "npc_id": "162857",
+    "name": "Alric Sading",
+    "area_id": "85",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660052 RequiredNpcOrGo1 and ObjectiveText1; reviewed against Brightwater Lake prose"
+  },
+  {
+    "npc_id": "162925",
+    "name": "Vulture Egg",
+    "area_id": "141",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660073 RequiredNpcOrGo1 and ObjectiveText1; reviewed against Dolanaar prose"
+  },
+  {
+    "npc_id": "162917",
+    "name": "Target",
+    "area_id": "1",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660079 RequiredNpcOrGo1 and ObjectiveText1; reviewed against Kharanos prose"
+  },
+  {
+    "npc_id": "162716",
+    "name": "Chimeric Embryo",
+    "area_id": "10219",
+    "evidence": "reviewed-quest-objective-target",
+    "source": "questcache quest 1660089 RequiredNpcOrGo1 and ObjectiveText1; reviewed against Road to De Other Side prose"
   }
 ]
