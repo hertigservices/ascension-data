@@ -1,0 +1,23 @@
+[
+  {
+    "npc_id": "161700",
+    "name": "Bianca Spada",
+    "area_id": "10138",
+    "evidence": "reviewed-northshire-report",
+    "source": "catalog-user-report-2026-09-19; quest 1660000 corroborates the Northshire Abbey setting"
+  },
+  {
+    "npc_id": "161701",
+    "name": "Moroi Spada",
+    "area_id": "10138",
+    "evidence": "reviewed-northshire-report",
+    "source": "catalog-user-report-2026-09-19; subtitle and quest 1660000 name Northshire Abbey"
+  },
+  {
+    "npc_id": "161702",
+    "name": "Sister Alma",
+    "area_id": "10138",
+    "evidence": "reviewed-northshire-report",
+    "source": "catalog-user-report-2026-09-19; subtitle and quest 1660003 name Northshire Abbey"
+  }
+]
